@@ -200,6 +200,51 @@
       widtH:150px;
     }
 
+    .proj{
+      height: 100hv;
+      color: #000000;
+
+    }
+
+    .img1{
+      background: url("/website/imagens/ar_condicionado.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      background-attachment: fixed;
+    }
+    .img2{
+      background: url("/website/imagens/img_eletrica.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      background-attachment: fixed;
+    }
+    .img3{
+      background: url("/website/imagens/manutencao.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 50vh;
+      background-attachment: fixed;
+    }
+
+    .text1{
+
+      height: 30vh;
+
+    }
+
+    .text2{
+      height: 30vh;
+
+    }
+
+    .text3{
+      height: 30vh;
+
+    }
+
+
+
+
+
   }
 
 
@@ -305,6 +350,49 @@
 
       widtH:150px;
     }
+
+
+    .proj{
+      height: 100hv;
+      color: #000000;
+
+    }
+
+    .img1{
+      background: url("/website/imagens/ar_condicionado.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 30vh;
+      background-attachment: fixed;
+    }
+    .img2{
+      background: url("/website/imagens/img_eletrica.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 30vh;
+      background-attachment: fixed;
+    }
+    .img3{
+      background: url("/website/imagens/manutencao.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 30vh;
+      background-attachment: fixed;
+    }
+
+    .text1{
+
+      height: 30vh;
+
+    }
+
+    .text2{
+      height: 30vh;
+
+    }
+
+    .text3{
+      height: 30vh;
+
+    }
+
 
   }
   
