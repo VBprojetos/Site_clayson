@@ -149,7 +149,7 @@
     }
 
     .services{
-        height: 100vh;
+        height: 1000px;
         background-color:#074973 ;
     }
 
@@ -163,27 +163,31 @@
 
     .list_services{
 
-      padding-top: 60%;
-      position: absolute;
-      top:100%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      display: flex;
       font-size: 36px;
       text-align: center;
-      color: #fff
+      color: #fff;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 10%;
+
       
     }
 
     .refr{
-      padding-top: 100px;
+
+      margin-bottom: 10%;
+
     }
 
     .electric{
-      padding-top: 100px
+      margin-bottom:  10%;
+
     }
 
     .tool{
-      padding-top: 100px
+      margin-bottom:  10%;
+
     }
 
     .refr img{
@@ -241,6 +245,38 @@
 
     }
 
+    #time{
+      position: relative;
+      top: 15px;
+    }
+
+    #local{
+      position: relative;
+      top: 25px;
+    }
+
+    #wpp{
+      position: relative;
+      top: 35px;
+    }
+
+    #email{
+      position: relative; 
+      top: 45px;
+    }
+
+    #insta{
+      position: relative;
+      left: 298px;
+      bottom: 35px;
+    }
+
+    #linkedin{
+      position: relative;
+      left: 269px;
+      top: 13px;
+    }
+
     .maps{
       display: none;
     }
@@ -255,11 +291,18 @@
     .Foot{
       background-color: #011126;
       position: relative;
+      height: 130px;
     }
   
+    .Foot p{
+      font-size: small;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
     
     .Foot img{
-      width: 45px;
+      width: 25px;
       border-radius: 50%;
 
     }
@@ -311,7 +354,7 @@
 
     }
     .services{
-        height: 100lvh;
+        height: 500px;
         background-color:#074973 ;
   
 
@@ -330,34 +373,29 @@
 
     .list_services{
       display: flex;
-      padding-top: 20%;
-      position: absolute;
-      top:100%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       font-size: 36px;
       text-align: center;
-      color: #fff
+      color: #fff;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 5%;
 
     }
 
     .refr{
-      padding-left: 20px;
-      padding-right: 20px;
+
       margin: 20px;
 
     }
 
     .electric{
-      padding-left: 20px;
-      padding-right: 20px;
+
       margin: 20px;
 
     }
 
     .tool{
-      padding-left: 20px;
-      padding-right: 20px;
+
       margin: 20px;
 
     }
