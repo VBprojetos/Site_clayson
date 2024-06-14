@@ -161,6 +161,44 @@
         text-shadow: 1px 4px 4px #000000;
     }
 
+    .list_services{
+
+      padding-top: 60%;
+      position: absolute;
+      top:100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;
+      text-align: center;
+      color: #fff
+    }
+
+    .refr{
+      padding-top: 100px;
+    }
+
+    .electric{
+      padding-top: 100px
+    }
+
+    .tool{
+      padding-top: 100px
+    }
+
+    .refr img{
+      width: 150px;
+    }
+    
+    .electric img{
+
+      width: 150px;
+    }
+
+    .tool img{
+
+      widtH:150px;
+    }
+
   }
 
 
@@ -216,6 +254,55 @@
       text-shadow: 1px 4px 4px #000000;
 
     }
+
+    .list_services{
+      display: flex;
+      padding-top: 20%;
+      position: absolute;
+      top:100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;
+      text-align: center;
+      color: #fff
+    }
+
+    .refr{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 20px;
+
+    }
+
+    .electric{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 20px;
+
+    }
+
+    .tool{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 20px;
+
+    }
+
+    .refr img{
+      width: 150px;
+    }
+    
+    .electric img{
+
+      width: 150px;
+    }
+
+    .tool img{
+
+      widtH:150px;
+    }
+
+  }
   }
 
   
