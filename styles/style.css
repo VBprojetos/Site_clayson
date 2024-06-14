@@ -241,6 +241,39 @@
 
     }
 
+    #time{
+      position: relative;
+      top: 15px;
+    }
+
+    #local{
+      position: relative;
+      top: 25px;
+    }
+
+    #wpp{
+      position: relative;
+      top: 35px;
+    }
+
+    #email{
+      position: relative; 
+      top: 45px;
+    }
+
+    #insta{
+      position: relative;
+      left: 298px;
+      bottom: 35px;
+    }
+
+    #linkedin{
+      position: relative;
+      left: 269px;
+      top: 13px;
+    }
+
+
     .maps{
       display: none;
     }
@@ -255,11 +288,18 @@
     .Foot{
       background-color: #011126;
       position: relative;
+      height: 130px
+      
     }
   
+    .Foot p{
+      font-size: small;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+    }
     
     .Foot img{
-      width: 45px;
+      width: 25px;
       border-radius: 50%;
 
     }
@@ -378,44 +418,81 @@
 
 
     .proj{
-      height: 100hv;
+      height: 1350px;
       color: #000000;
 
     }
 
-    .img1{
-      background: url("/website/imagens/ar_condicionado.jpeg") no-repeat center center;
+    .img1 img{
       background-size: cover;
-      height: 30vh;
+      height: 70vh;
+      width: 50vw;
       background-attachment: fixed;
     }
-    .img2{
-      background: url("/website/imagens/img_eletrica.jpeg") no-repeat center center;
+    .img2 img{
       background-size: cover;
-      height: 30vh;
+      height: 80vh;
+      width:666px;
       background-attachment: fixed;
+      position: relative;
+      left: 683px;
     }
-    .img3{
-      background: url("/website/imagens/manutencao.jpeg") no-repeat center center;
+    .img3 img{
       background-size: cover;
-      height: 30vh;
+      height: 90vh;
       background-attachment: fixed;
+      width: 50vw;
+    }
+
+    .Ref{
+      background-color: bisque;
+      height: 420px;
+    }
+
+    
+    .El{
+      background-color: bisque;
+      height: 420px;
+    }
+
+    .Man{
+      background-color: rgb(180, 105, 14);
+      
+
     }
 
     .text1{
-
-      height: 30vh;
-
+      position: relative;
+      bottom: 424px;
+      left: 683px;
+      height: 80vh;
+      width: 666px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      
     }
 
     .text2{
-      height: 30vh;
-
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 80vh;
+      width: 683px;
+      bottom: 483px;
+      position: relative;
     }
 
     .text3{
-      height: 30vh;
-
+      position: relative;
+      left: 683px;
+      height: 80vh;
+      width: 666px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      bottom: 484px;
+      
     }
 
     .maps {
@@ -475,6 +552,10 @@
       width: 45px;
       border-radius: 50%;
 
+    }
+
+    .Foot p{
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     footer{
