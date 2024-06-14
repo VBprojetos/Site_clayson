@@ -241,8 +241,9 @@
 
     }
     .services{
-        height: 100vh;
+        height: 100lvh;
         background-color:#074973 ;
+  
 
     }
 
@@ -253,6 +254,7 @@
       padding-top: 20px;
       color: #fff;
       text-shadow: 1px 4px 4px #000000;
+      width: 100%;
 
     }
 
@@ -266,6 +268,7 @@
       font-size: 36px;
       text-align: center;
       color: #fff
+
     }
 
     .refr{
@@ -304,7 +307,7 @@
     }
 
   }
-  }
+  
 
   
 
