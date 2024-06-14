@@ -241,9 +241,34 @@
 
     }
 
+    .maps{
+      display: none;
+    }
 
+    .infos{
+      position: relative;
+      color: #fff;
+      margin-left: 100px
+      ;
+    }
 
+    .Foot{
+      background-color: #011126;
+      position: relative;
+    }
+  
+    
+    .Foot img{
+      width: 45px;
+      border-radius: 50%;
 
+    }
+
+    footer{
+      text-align: center;
+      background-color: #000000;
+      color: #fff;
+    }
 
   }
 
@@ -393,8 +418,74 @@
 
     }
 
+    .maps {
+      text-align: right;
+      position: relative;
+      height: 500px;
+      width: 80vw;
 
+    }
+
+    .infos{
+      position: relative;
+      color: #fff;
+      margin-left: 300px
+      ;
+    }
+
+    .Foot{
+      background-color: #011126;
+      position: relative;
+    }
+  
+    #time{
+      position: relative;
+      top: 150px;
+      
+    }
+
+    #local{
+      position: relative;
+      top: 180px; 
+    }
+
+    #wpp{
+      position: relative;
+      top: 210px;
+    }
+
+    #email{
+      position: relative;
+      top: 240px;
+    }
+
+    #insta{
+      position: relative;
+      top: 270px;
+
+    }
+
+    #linkedin{
+      position: relative;
+      top: 270px;
+      left: 20px;
+    }
+
+    .Foot img{
+      width: 45px;
+      border-radius: 50%;
+
+    }
+
+    footer{
+      text-align: center;
+      background-color: #000000;
+      color: #fff;
+    }
   }
+
+
+  
   
 
   
