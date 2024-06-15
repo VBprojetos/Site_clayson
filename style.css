@@ -122,7 +122,7 @@
         margin: auto;
         display: flex;
         align-items: center;
-        background: url("../imagens/banco.jpeg") no-repeat center center;
+        background: url("banco.jpeg") no-repeat center center;
         background-size: cover;
         height: 50vh;
         background-attachment: fixed;
@@ -246,15 +246,15 @@
     }
 
     #ref_box_img{
-      background: url("/imagens/air-conditioner-1185041_640.jpg") center center no-repeat;
+      background: url("air-conditioner-1185041_640.jpg") center center no-repeat;
       background-size: cover;
     }
     #elec_box_img{
-      background: url("/imagens/electric-4198293_640.jpg") center center no-repeat;
+      background: url("electric-4198293_640.jpg") center center no-repeat;
       background-size: cover;
     }
     #manu_box_img{
-      background: url("/imagens/man-8180076_640.jpg") center center no-repeat;
+      background: url("man-8180076_640.jpg") center center no-repeat;
       background-size: cover;
     }
 
@@ -327,7 +327,7 @@
         margin: auto;
         display: flex;
         align-items: center;
-        background: url("../imagens/banco.jpeg") no-repeat center center;
+        background: url("banco.jpeg") no-repeat center center;
         background-size: cover;
         height: 40vh;
         background-attachment: fixed;
@@ -475,7 +475,7 @@
 
     #ref_box_img{
 
-      background: url("/imagens/air-conditioner-1185041_1280.jpg") center center;
+      background: url("air-conditioner-1185041_1280.jpg") center center;
       background-size: cover;
       width: 50vw;
       height:300px;
@@ -486,7 +486,7 @@
 
     #elec_box_img{
       
-      background: url("/imagens/electric-4198293_1280.jpg") center center;
+      background: url("electric-4198293_1280.jpg") center center;
       background-size: cover;
       width: 50vw;
       height:300px;
@@ -498,7 +498,7 @@
 
     #manu_box_img{
       
-      background: url("/imagens/man-8180076_1280.jpg") center center;
+      background: url("man-8180076_1280.jpg") center center;
       background-size: cover;
       width: 50vw;
       height:300px;
