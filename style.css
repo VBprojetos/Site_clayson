@@ -64,6 +64,7 @@
 
     
   .nav-list.active {
+    display: flex;
     transform: translateX(0);
   }
 
@@ -72,8 +73,7 @@
     from {
       opacity: 0;
       transform: translateX(50px);
-      display: none;
-      
+
     }
     to {
       opacity: 1;
@@ -110,6 +110,7 @@
       align-items: center;
       justify-content: space-around;
       transform: translateX(100%);
+      display: none;
       transition: transform 0.3s ease-in;
     }
     .nav-list li {
