@@ -173,9 +173,7 @@
       color: #fff;
       justify-content: center;
       flex-direction: column;
-      margin-top: 10%;
-
-      
+      margin-top: 10%;  
     }
 
     .refr{
@@ -209,7 +207,7 @@
     }
 
     .projetos{
-      height: 2100px;
+      height: 2040px;
       display: flex;
       flex-direction: column;
       background-color:#e4e2e2 ;
@@ -261,6 +259,55 @@
       background: url("man-8180076_640.jpg") center center no-repeat;
       background-size: cover;
     }
+
+    .diferenciais{
+      height: 950px;
+      background-color:#074973 ;
+  }
+
+    .list_diferenciais{
+
+      display: flex;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      justify-content: center;
+      flex-direction: column;
+
+    
+  }
+
+  .list_diferenciais2{
+
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+
+  
+}
+
+  .preco_justo{
+    margin-top: 70px;
+}
+
+  .prestacao_servicos{
+    margin-top: 50px;
+}
+
+  .trabalhador{
+    margin-top: 50px;
+  }
+
+  .referencia{
+    margin-top: 50px;
+  }
+
+
+
 
     .contact {
       color: #fff;
@@ -421,7 +468,7 @@
 
 
     .projetos{
-      height: 1000px;
+      height: 900px;
       display: flex;
       flex-direction: column;
       background-color:#e4e2e2 ;
@@ -531,11 +578,59 @@
 
     }
   
+    
+    .list_diferenciais{
+      display: flex;
+      font-size: 26px;
+      text-align: center;
+      color: #000000;
+      flex-direction: row;
+      justify-content: center;
 
+    }
 
+    .list_diferenciais2{
+      display: flex;
+      font-size: 26px;
+      text-align: center;
+      color: #000000;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 5%;
 
+    }
 
+    .diferenciais  p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+    }
 
+    .diferenciais{
+      height: 500px;
+      background-color:#074973 ;
+      
+    }
+
+    
+    .preco_justo{
+      margin-top: 40px;
+      margin-left: 60px;
+      
+    }
+
+    .prestacao_servicos{
+      margin-top: 40px;
+      margin-left: 60px;
+    }
+
+    .trabalhador{
+      margin-top: 40px;
+      margin-left: 60px;
+    }
+
+    .referencia{
+      margin-left: 60px;
+    }
 
 
     .contact {
