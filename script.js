@@ -23,6 +23,8 @@ class MobileNavbar {
     this.navList.classList.toggle(this.activeClass);
     this.mobileMenu.classList.toggle(this.activeClass);
     this.animateLinks();
+
+    
   }
 
   handleLinkClick() { // Definindo o método para lidar com o clique nos links de navegação
