@@ -204,108 +204,109 @@
       widtH:150px;
     }
 
-    .proj{
-      height: 100hv;
-      color: #000000;
+    .projetos{
+      height: 2100px;
+      display: flex;
+      flex-direction: column;
+      background-color:#e4e2e2 ;
 
     }
 
-    .img1{
-      background: url("/website/imagens/ar_condicionado.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 50vh;
-      background-attachment: fixed;
-    }
-    .img2{
-      background: url("/website/imagens/img_eletrica.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 50vh;
-      background-attachment: fixed;
-    }
-    .img3{
-      background: url("/website/imagens/manutencao.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 50vh;
-      background-attachment: fixed;
-    }
-
-    .text1{
-
-      height: 30vh;
+    .box_img{
+      height:300px;
 
     }
 
-    .text2{
-      height: 30vh;
+    .box_text{
+
+      height:350px;
+      text-align: center;
+      background-color: #e4e2e2;
+      color:#011126;
 
     }
 
-    .text3{
-      height: 30vh;
+    .box_text >h3 {
 
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+      font-size: 27px;
+      margin-top: 30px;
+      margin-bottom: 20px;
     }
 
-    #time{
-      position: relative;
-      top: 15px;
-    }
-
-    #local{
-      position: relative;
-      top: 25px;
-    }
-
-    #wpp{
-      position: relative;
-      top: 35px;
-    }
-
-    #email{
-      position: relative; 
-      top: 45px;
-    }
-
-    #insta{
-      position: relative;
-      left: 298px;
-      bottom: 35px;
-    }
-
-    #linkedin{
-      position: relative;
-      left: 269px;
-      top: 13px;
-    }
-
-    .maps{
-      display: none;
-    }
-
-    .infos{
-      position: relative;
-      color: #fff;
-      margin-left: 100px
-      ;
-    }
-
-    .Foot{
-      background-color: #011126;
-      position: relative;
-      height: 130px;
-    }
+    .box_text >p{
+      position: absolute;
+      font-size: 20px;
+      text-align: center;
+      width: 400px;
+      left: 50%;
+      transform: translate(-50%, 50%);
   
-    .Foot p{
-      font-size: small;
-      text-align: left;
-      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+
+    #ref_box_img{
+      background: url("/imagens/air-conditioner-1185041_640.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    #elec_box_img{
+      background: url("/imagens/electric-4198293_640.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    #manu_box_img{
+      background: url("/imagens/man-8180076_640.jpg") center center no-repeat;
+      background-size: cover;
+    }
+
+    .contact {
+      color: #fff;
+      display: flex;
+      background-color:#011126 ;
+      justify-content: center;
+
+    }
+
+
+    .infos > div{
+      margin-top:10%;
+      margin-bottom: 10%;
     }
 
     
-    .Foot img{
-      width: 25px;
-      border-radius: 50%;
 
+    .social_medias{
+      display: flex;
+      justify-content: center;
     }
+
+    .social_medias > a {
+
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+
+    .social_medias > a >img {
+      height: 50px;
+      width: 50px;
+      background-image: cover;
+      border-radius: 10px;
+    }
+
+
+    .gerenal_infos{
+      text-align: center;
+    }
+
+    .gerenal_infos > p{
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .maps {
+
+      display: none;
+    }
+
 
     footer{
       text-align: center;
@@ -415,111 +416,192 @@
     }
 
 
-    .proj{
-      height: 100hv;
-      color: #000000;
+    .projetos{
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      background-color:#e4e2e2 ;
 
     }
 
-    .img1{
-      background: url("/website/imagens/ar_condicionado.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 30vh;
-      background-attachment: fixed;
+    .refrigeracao{
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      
     }
-    .img2{
-      background: url("/website/imagens/img_eletrica.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 30vh;
-      background-attachment: fixed;
+    .eletrica{
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      
     }
-    .img3{
-      background: url("/website/imagens/manutencao.jpeg") no-repeat center center;
-      background-size: cover;
-      height: 30vh;
-      background-attachment: fixed;
-    }
-
-    .text1{
-
-      height: 30vh;
-
-    }
-
-    .text2{
-      height: 30vh;
-
-    }
-
-    .text3{
-      height: 30vh;
-
-    }
-
-    .maps {
-      text-align: right;
-      position: relative;
-      height: 500px;
-      width: 80vw;
-
-    }
-
-    .infos{
-      position: relative;
-      color: #fff;
-      margin-left: 300px
-      ;
-    }
-
-    .Foot{
-      background-color: #011126;
-      position: relative;
-    }
-  
-    #time{
-      position: relative;
-      top: 150px;
+    .manutencao{
+      display: flex;
+      flex-direction: row;
+      height: 300px;
       
     }
 
-    #local{
-      position: relative;
-      top: 180px; 
-    }
 
-    #wpp{
-      position: relative;
-      top: 210px;
-    }
-
-    #email{
-      position: relative;
-      top: 240px;
-    }
-
-    #insta{
-      position: relative;
-      top: 270px;
+    .box_text{
+      height:300px;
+      width: 300px;
+      position: absolute;
+      text-align: center;
+      color:#011126 ;
+      margin-top: 30px;
 
     }
 
-    #linkedin{
-      position: relative;
-      top: 270px;
-      left: 20px;
-    }
+    .box_text > h3{
 
-    .Foot img{
-      width: 45px;
-      border-radius: 50%;
+      font-size: 28px;
+      margin-bottom: 20px;
 
     }
+
+    .box_text >p{
+
+      font-size: 18px;
+
+    }
+
+
+
+    .box_img{
+      border-radius: 5px;
+    }
+
+    #ref_box_img{
+
+      background: url("/imagens/air-conditioner-1185041_1280.jpg") center center;
+      background-size: cover;
+      width: 50vw;
+      height:300px;
+      position: absolute;
+      left:0;
+
+    }
+
+    #elec_box_img{
+      
+      background: url("/imagens/electric-4198293_1280.jpg") center center;
+      background-size: cover;
+      width: 50vw;
+      height:300px;
+      position: absolute;
+      left:50%
+
+
+    }
+
+    #manu_box_img{
+      
+      background: url("/imagens/man-8180076_1280.jpg") center center;
+      background-size: cover;
+      width: 50vw;
+      height:300px;
+      position: absolute;
+      left:0
+    }
+
+    #box_text1{
+      position: absolute;
+      left: 50%;
+      transform: translate(50%,0);
+
+    }
+
+    #box_text2{
+      position: absolute;
+      left: 0;
+      transform: translate(50%,0);
+
+    }
+
+    #box_text3{
+      position: absolute;
+      left: 50%;
+      transform: translate(50%,0);
+
+    }
+  
+
+
+
+
+
+
+
+    .contact {
+      color: #fff;
+      display: flex;
+      background-color:#011126 ;
+      justify-content: center;
+      height: 300px;
+
+    }
+
+
+    .infos > div{
+      margin-top:10%;
+      margin-bottom: 10%;
+    }
+
+    
+
+    .social_medias{
+      display: flex;
+      justify-content: center;
+    }
+
+    .social_medias > a {
+
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+
+    .social_medias > a >img {
+      height: 50px;
+      width: 50px;
+      background-image: cover;
+      border-radius: 10px;
+    }
+
+
+    .gerenal_infos{
+      text-align: center;
+    }
+
+    #inf{
+
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .gerenal_infos > p{
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+
+    .maps {
+
+      display: block;
+
+      margin-top: 20px;
+      
+
+    }
+
 
     footer{
       text-align: center;
       background-color: #000000;
       color: #fff;
+      height: 5vh;
     }
+
   }
 
 
